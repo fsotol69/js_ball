@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#start, #stop{
+  width: 60px;
+  height: 30px;
+  background-color: darkgreen;
+  border-radius: 5px;
+  position: fixed;
+  left: 50px;
+  top: 50px;
+  color: #fff;
+}
+
+#stop{
+  left: 120px;
+  background-color: red;
+}
+
+#canvas {
+  border: 5px solid red;
+  background-color: #000;
+}
